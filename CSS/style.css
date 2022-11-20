@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(227, 231, 235);
+}
+nav {
+    display: flex;
+    background-color: rgb(244, 243, 243);
+    height: 8vh;
+    margin: 0;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+}
+
+nav ul li {
+    margin-right: 20px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-contactme {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.container {
+    width: 1200px;
+    background-color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 20px rgba(0, 0, 0, 0.22);
+    border-radius: 9px;
+}
+
+.container .content {
+    flex: 70%;
+    margin-left: 25px;
+}
+
+.container .card {
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    flex: 30%;
+    text-align: center;
+}
+
+.container .card h2 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 25px;
+}
+.container .card p {
+    margin: 0px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.container .content {
+    padding-top: 45px;
+    padding-left: 35px;
+    padding-right: 75px;
+    text-align: justify;
+}
+
+.container .card .card-content img {
+    width: 300px;
+}
+
+.btn-contact {
+    border-radius: 18px;
+    padding: 12px 40px;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    margin-top: 25px;
+}
+
+.line-contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.line-download {
+    list-style-type: none;
+    margin-left: 30px;
+    margin-top: 20px;
+    color: black;
+    align-content: center;
+    align-items: center;
+}
+
+.line-download img {
+    width: 20px;
+    padding-left: 5px;
+}
+
+.line-sosial {
+    margin-top: 50px;
+}
+
+.line-sosial a {
+    padding-left: 20px;
+}
+
+.card-content {
+    margin: 0 auto;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 20px rgba(0, 0, 0, 0.22);
+}
